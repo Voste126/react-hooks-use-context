@@ -1,5 +1,8 @@
 body {
-  background-color: rgb(97, 97, 97);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  /* background-color: rgb(97, 97, 97); */
   margin: 0;
   padding: 0;
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
@@ -76,4 +79,15 @@ ul.light li::before {
 ul.dark li::before {
   content: "🌘";
   margin-right: 0.5rem;
+}
+/* Light theme */
+.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Dark theme */
+.dark {
+  background-color: #333333;
+  color: #ffffff;
 }

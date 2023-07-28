@@ -1,6 +1,9 @@
-import React from "react";
+import React, {useContext}from "react";
+import { ThemeContext } from "../context/Theme";
 
-function Interests({ interests, theme }) {
+
+function Interests({ interests}) {
+  const {theme} = useContext(ThemeContext)
   return (
     <div>
       <h4>Interests</h4>
